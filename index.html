@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytrix Dev</title>
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Scroll Progress Bar -->
+        <div class="scroll-progress"></div>
+
+        <!-- Music Player Button -->
+        <div class="music-player">
+            <button id="musicToggle" class="music-btn">
+                <img src="favicon_io/android-chrome-512x512.png" alt="Mytrix Dev" class="music-logo" id="musicLogo">
+                <i class='bx bx-play' id="musicIcon"></i>
+            </button>
+            <audio id="backgroundMusic" loop preload="auto">
+                <source src="Music/MzStudio.mp3" type="audio/mpeg">
+                <source src="Music/MzStudio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <video class="back-vid" autoplay loop muted plays-inline src="videos/galaxy.mp4"></video>
+
+
+
+        <header data-aos="fade-down" data-aos-duration="2000">
+            <div class="left">
+                <img src="https://iili.io/KkgAFWJ.md.png" alt="logo">
+                <h2><span style="color: #72a1dea2;">Mytrix</span> Dev</h2>
+            </div>
+
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="start-your-project.html">Start Your Project</a></li>
+            </ul>
+
+            <div class="box-icons">
+                <p><i class='bx bxl-github'></i></p>
+            </div>
+
+            <div class="menu-icon">
+                <i class='bx bx-menu'></i>
+            </div>
+        </header>
+        <div class="sidebar">
+            <div class="close-icon">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+
+            <div class="social-sidebar">
+                <a href="https://github.com/mytrixdev" title="GitHub"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="blackhole-box" data-aos="fade-down" data-aos-duration="2000">
+            <video autoplay loop muted plays-inline src="videos/blackhole.mp4"></video>
+        </div>
+
+        <section class="hero ">
+            <div class="hero-info autoBlur" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-info-title">
+                    <i class='bx bxl-sketch'></i>
+                    Front-end Development Studio
+                </div>
+
+                <h1 data-aos="fade-right" data-aos-duration="3000">Providing <span class="gradient">the best</span>
+                    Project <span class="gradient">Experience</span></h1>
+
+                <p>We're a front-end development studio with experience in Website, Mobile and Software development.
+                    Check out our
+                    projects and skills.</p>
+
+                <button><i class='bx bx-send'></i> Contact Us</button>
+            </div>
+
+            <div class="skills-video-box ">
+                <video class="skills-video autoBlur" autoplay loop muted plays-inline
+                    src="videos/hero-video.mp4"></video>
+            </div>
+
+            <div class="scroll-down"></div>
+        </section>
+
+        <section id="about-section" class="info-section">
+            <h1 class="section-title autoDisplay">About <span class="gradient">Mytrix Dev</span> 👋</h1>
+
+            <div class="about-content">
+                <div class="about-main autoBlur">
+                    <div class="about-text">
+                        <h2>Meet Our Creative Team</h2>
+                        <p>Mytrix Dev is a creative digital team founded by <strong>Mahfuz</strong> — a passionate
+                            innovator who loves turning imagination into motion.</p>
+
+                        <p>We work to craft modern and futuristic digital experiences through development, programming,
+                            animation, 3D motion design, script writing, and short video editing. Our goal is to bring
+                            ideas to life with creativity, precision, and technology.</p>
+
+                        <p>At Mytrix Dev, every project is more than just work — it's an art form powered by innovation,
+                            teamwork, and passion. We believe in making every line of code, every animation frame, and
+                            every
+                            creative idea shine with perfection.</p>
+                    </div>
+
+                    <div class="team-info">
+                        <div class="team-member">
+                            <h3>👨‍💻 Mahfuz</h3>
+                            <div class="member-details">
+                                <p><i class='bx bx-envelope'></i> mytrixdev@gmail.com</p>
+                                <p><i class='bx bx-map'></i> Bangladesh, Dhaka-1230</p>
+                                <p><i class='bx bx-time'></i> 2+ Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-cards">
+                    <div class="card autoBlur">
+                        <h1>Our Mission</h1>
+                        <p>To transform creative visions into stunning digital realities through innovative technology
+                            and artistic excellence.</p>
+                        <img src="images/grid1.png" alt="">
+                    </div>
+
+                    <div class="card autoBlur">
+                        <h1>What We Do</h1>
+                        <p>We specialize in web development, mobile apps, 3D animations, motion graphics, and creative
+                            video production.</p>
+                        <img src="images/grid2.png" alt="">
+                    </div>
+
+                    <div class="card autoBlur">
+                        <h1>Our Approach</h1>
+                        <p>Every project is treated as a unique art form, combining technical expertise with creative
+                            innovation.</p>
+                        <video src="videos/glob.mp4" autoplay loop muted plays-inline></video>
+                        <button onclick="smoothScrollTo('#contact-section')"><i class='bx bx-send'></i> Work With
+                            Us</button>
+                    </div>
+
+                    <div class="card autoBlur">
+                        <h1>Our Passion</h1>
+                        <p>We're driven by the love of creating exceptional digital experiences that inspire and engage
+                            audiences worldwide.</p>
+                        <img src="images/grid4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects-section" class="my-project">
+            <h1 class="section-title autoDisplay">My Projects 👨‍💻</h1>
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo1" src="videos/project1.mp4"></video>
+                    <div class="hover-sign"></div>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1>Animated <span class="gradient">Gaming</span> Website</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ipsam excepturi ex in corrupti
+                        similique dolor nam, suscipit, odio soluta at recusandae nulla, id fugiat!</p>
+                    <a href="https://mytrixgame.netlify.app/" target="_blank"><button><i
+                                class='bx bx-link-external'></i> Website</button></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo2" src="videos/project2.mp4"></video>
+                </div>
+                <div class="project-info fadein-left">
+                    <h1> Modern <span class="gradient">Portfolio</span> Website </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi voluptates assumenda omnis
+                        impedit ipsa veritatis soluta earum minima consequatur.</p>
+                    <a href="https://mytrixdev.netlify.app/" target="_blank"><button><i class='bx bx-link-external'></i>
+                            Website</button></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-vidbox autoBlur">
+                    <video loop id="projectVideo3" src="videos/project3.mp4"></video>
+                </div>
+
+                <div class="project-info fadein-left">
+                    <h1>Movie <span class="gradient">Landing</span> Page</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores numquam saepe itaque sapiente
+                        odit neque necessitatibus explicabo hic laudantium ipsam nesciunt ducimus, cumque ratione esse.
+                    </p>
+                    <button><i class='bx bx-link-external'></i> Website</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills-section" class="skills-section">
+            <h1 class="section-title autoDisplay">
+                Our Skills 💪
+            </h1>
+
+            <div class="skills-container autoDisplay">
+                <div class="skills-cards">
+                    <div class="skill-card autoBlur">
+                        <div class="skill-icon">
+                            <i class='bx bx-laptop'></i>
+                        </div>
+                        <h3 class="gradient">Designer</h3>
+                        <p>We have expertise in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD. Our
+                            strength lies in blending aesthetics with functionality to create seamless user experiences.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Figma</span>
+                            <span>Adobe XD</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card autoBlur">
+                        <div class="skill-icon">
+                            <i class='bx bx-code-block'></i>
+                        </div>
+                        <h3 class="gradient">Coder</h3>
+                        <p>We're skilled in HTML, CSS, JavaScript, and frameworks like React and Node.js. We also have
+                            experience with database management using MongoDB and MySQL.</p>
+                        <div class="skill-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card autoBlur">
+                        <div class="skill-icon">
+                            <i class='bx bx-video'></i>
+                        </div>
+                        <h3 class="gradient">Video Editor</h3>
+                        <p>We specialize in short video editing, creating engaging content with smooth transitions,
+                            effects, and professional post-production techniques.</p>
+                        <div class="skill-tags">
+                            <span>Premiere Pro</span>
+                            <span>After Effects</span>
+                            <span>Motion Graphics</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card autoBlur">
+                        <div class="skill-icon">
+                            <i class='bx bx-edit'></i>
+                        </div>
+                        <h3 class="gradient">Script Writer</h3>
+                        <p>We craft compelling scripts and narratives for videos, ensuring engaging storytelling that
+                            captivates audiences and delivers your message effectively.</p>
+                        <div class="skill-tags">
+                            <span>Storytelling</span>
+                            <span>Creative Writing</span>
+                            <span>Narrative</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card autoBlur">
+                        <div class="skill-icon">
+                            <i class='bx bx-cube'></i>
+                        </div>
+                        <h3 class="gradient">3D Animation</h3>
+                        <p>We create stunning 3D animations and motion graphics, bringing characters and objects to life
+                            with realistic movements, lighting, and visual effects.</p>
+                        <div class="skill-tags">
+                            <span>Blender</span>
+                            <span>Maya</span>
+                            <span>Cinema 4D</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies Section - Enhanced Design -->
+            <div class="technologies-section autoDisplay">
+                <div class="tech-header">
+                    <h2 class="section-subtitle">Technologies We Use</h2>
+                    <p class="tech-description">Cutting-edge tools and frameworks that power our creative solutions</p>
+                </div>
+
+                <div class="tech-container autoBlur">
+                    <div class="tech-categories">
+                        <div class="tech-category">
+                            <h4>Frontend</h4>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Vue.js</span>
+                                <span>Angular</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-category">
+                            <h4>Backend</h4>
+                            <div class="tech-tags">
+                                <span>Node.js</span>
+                                <span>Python</span>
+                                <span>PHP</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+
+                        <div class="tech-category">
+                            <h4>Design</h4>
+                            <div class="tech-tags">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Photoshop</span>
+                                <span>Illustrator</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-slider-container">
+                        <div class="slider" reverse="true" style="
+                        --width: 100px;
+                        --height: 100px;
+                        --quantity: 9;
+                        ">
+                            <div class="list">
+                                <div class="item" style="--position: 1"><img src="images/1.png" alt=""></div>
+                                <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+                                <div class="item" style="--position: 3"><img src="images/3.webp" alt=""></div>
+                                <div class="item" style="--position: 4"><img src="images/4.webp" alt=""></div>
+                                <div class="item" style="--position: 5"><img src="images/5.png" alt=""></div>
+                                <div class="item" style="--position: 6"><img src="images/6.png" alt=""></div>
+                                <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+                                <div class="item" style="--position: 8"><img src="images/8.png" alt=""></div>
+                                <div class="item" style="--position: 9"><img src="images/9.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact-section ">
+            <div class="contact-header">
+                <h1 class="section-title autoDisplay">Let's Create Something <span class="gradient">Amazing</span>
+                    Together! 🚀</h1>
+                <p class="contact-subtitle">Ready to bring your vision to life? We'd love to hear about your project!
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="social-box autoBlur">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-methods">
+                            <a href="mailto:mytrixdev@gmail.com"><i class='bx bxl-telegram'></i>
+                                mytrixdev@gmail.com</a>
+                            <a href="https://github.com/mytrixdev"><i class='bx bxl-github'></i> GitHub</a>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/mytrixdev" title="GitHub"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box autoBlur">
+                    <div class="form-header">
+                        <h3>Start Your Project</h3>
+                        <p>Whether you're looking to build a new website, improve your existing platform, or bring a
+                            unique project to life. We're here to help.</p>
+                        <p>You can also contact us directly via <a href="https://formspree.io/f/xblzwoqw"
+                                target="_blank" style="color: #64ffda; text-decoration: underline;">Formspree</a>.</p>
+                    </div>
+
+                    <form class="contact-form" action="https://formspree.io/f/xblzwoqw" method="POST">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input placeholder="Your Full Name" type="text" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input placeholder="your.email@example.com" type="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Project Type</label>
+                            <select name="project_type" required>
+                                <option value="">Select Project Type</option>
+                                <option value="website">Website Development</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="webapp">Web Application</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea
+                                placeholder="Tell us about your project, timeline, and any specific requirements..."
+                                rows="4" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class='bx bx-mail-send'></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="footer">
+            <h1>©️2025, Made with by Mytrix Dev</h1>
+            <div class="box-icons">
+                <p><i class='bx bxl-github'></i></p>
+            </div>
+        </section>
+
+
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
